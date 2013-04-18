@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Librería</string>
+    <string name="libreria">Librería</string>
+    <string name="listado">Listado</string>
+    <string name="anadir">Añadir libro</string>
+    <string name="no_libros">No hay libros</string>
+    <string name="titulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="isbn">ISBN</string>
+    <string name="precio">Precio</string>
+    <string name="euro">€</string>
+    <string name="no_valor">Campo obligatorio:</string>
+    <string name="no_numerico">El campo tiene que ser numérico:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="libro_anadido">Libro correctamente añadido</string>
+    <string name="editar_libro">Editar libro</string>
+    <string name="editar">Editar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="libro_actualizado">Libro correctamente actualizado</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="alerta_titulo">Eliminar libro</string>
+    <string name="alerta_mensaje_ini">¿Está seguro de eliminar el libro \"</string>
+    <string name="alerta_mensaje_fin">\"?</string>
+
+</resources>

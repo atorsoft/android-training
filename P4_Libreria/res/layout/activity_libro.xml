@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titulo" />
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvTitulo"
+        android:ems="10"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:id="@+id/tvAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etTitulo"
+        android:text="@string/autor" />
+
+    <EditText
+        android:id="@+id/etAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAutor"
+        android:ems="10"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/tvISBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etAutor"
+        android:text="@string/isbn" />
+
+    <EditText
+        android:id="@+id/etISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvISBN"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etISBN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="5"
+        android:gravity="right"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/etPrecio"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@+id/etPrecio"
+        android:text="@string/precio" />
+
+    <TextView
+        android:id="@+id/etEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/etPrecio"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/etPrecio"
+        android:text="@string/euro" />
+
+    <Button
+        android:id="@+id/bGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPrecio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/aceptar" />
+
+</RelativeLayout>
