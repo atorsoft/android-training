@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Agenda</string>
+    <string name="title_activity_nuevo_contacto">Nuevo contacto</string>
+    <string name="nombre">Nombre:</string>
+    <string name="email">Email:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="anadir">Añadir</string>
+    <string name="ver_contactos">Ver contactos</string>
+    <string name="noValor">Introduzca valor</string>
+    <string name="telefonoNoNumerico">El valor de Teléfono debe ser numérico</string>
+    <string name="contacto_anadido">Contacto añadido a la agenda</string>
+    <string name="title_activity_ver_contactos">Contactos</string>
+
+</resources>
