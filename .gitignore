@@ -18,3 +18,9 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# Eclipse settings
+.settings/
+
+# Windows stuff
+Thumbs.db
