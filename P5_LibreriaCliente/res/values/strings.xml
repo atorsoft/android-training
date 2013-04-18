@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">LibreriaCliente</string>
+    <string name="title_activity_lista_libros">Lista de libros</string>
+    <string name="title_activity_detalle_libro">Detalle de libro</string>
+    <string name="no_libros">No hay libros</string>
+    <string name="titulo">Título:</string>
+    <string name="autor">Autor:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="precio">Precio:</string>
+    <string name="euro">€</string>
+
+</resources>
