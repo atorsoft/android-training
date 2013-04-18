@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/llNumeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:id="@+id/llNum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvNum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num1" />
+
+            <EditText
+                android:id="@+id/etNum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberSigned|numberDecimal" />
+
+            <requestFocus />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llNum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvNum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num2" />
+
+            <EditText
+                android:id="@+id/etNum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|numberSigned|numberDecimal" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBotonera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llNumeros"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/bSumar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/suma" />
+
+        <Button
+            android:id="@+id/bRestar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/resta" />
+
+        <Button
+            android:id="@+id/bMultiplicar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/multiplicacion" />
+
+        <Button
+            android:id="@+id/bDividir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/division" />
+    </LinearLayout>
+
+</RelativeLayout>
