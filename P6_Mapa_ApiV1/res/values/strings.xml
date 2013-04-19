@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Mapa</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="dcha">Mover a derecha</string>
+    <string name="izda">Mover a izquierda</string>
+    <string name="arriba">Mover arriba</string>
+    <string name="abajo">Mover abajo</string>
+    <string name="centro">Mostrar mi localización</string>
+
+</resources>
