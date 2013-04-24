@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="atorsoft.gestorempresas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activity.Inicio" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Creacion"
+            android:label="@string/title_activity_creacion" >
+        </activity>
+        <activity
+            android:name=".activity.Eliminacion"
+            android:label="@string/title_activity_eliminacion" >
+        </activity>
+        <activity
+            android:name=".activity.Busqueda"
+            android:label="@string/title_activity_busqueda" >
+        </activity>
+        <activity
+            android:name=".activity.BusquedaResultados"
+            android:label="@string/title_activity_busqueda_resultados" >
+        </activity>
+        <activity
+            android:name=".activity.AccesoWeb"
+            android:label="@string/title_activity_acceso_web" >
+        </activity>
+        <activity
+            android:name=".activity.Categorias"
+            android:label="@string/title_activity_categorias" >
+        </activity>
+
+        <provider
+            android:name=".provider.CategoriasProvider"
+            android:authorities="atorsoft.gestorempresas.provider.categorias" />
+        <provider
+            android:name=".provider.EmpresasProvider"
+            android:authorities="atorsoft.gestorempresas.provider.empresas" />
+    </application>
+
+</manifest>

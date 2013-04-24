@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">G·Empresas</string>
+    <string name="logo">Logo</string>
+    <string name="crear">Crear</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="buscar">Buscar</string>
+    <string name="acceder_web">Acceder Web</string>
+    <string name="title_activity_creacion">Creación de empresa</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Dirección</string>
+    <string name="email">Email</string>
+    <string name="web">Web</string>
+    <string name="categoria">Categoría</string>
+    <string name="guardar">Guardar</string>
+    <string name="no_valor">Campo obligatorio:</string>
+    <string name="empresa_creada">Empresa creada correctamente</string>
+    <string name="title_activity_eliminacion">Eliminación de empresa</string>
+    <string name="no_empresas">No hay empresas</string>
+    <string name="alerta_titulo">Eliminar empresa</string>
+    <string name="alerta_mensaje_ini">¿Está seguro de eliminar la empresa \"</string>
+    <string name="alerta_mensaje_fin">\"?</string>
+    <string name="title_activity_busqueda">Búsqueda de empresas</string>
+    <string name="busqueda_nombre">Búsqueda por nombre</string>
+    <string name="introduccion_texto">Introduzca texto de búsqueda:</string>
+    <string name="busqueda_categoria">Búsqueda por categoría</string>
+    <string name="seleccion_categoria">Seleccione categoría:</string>
+    <string name="title_activity_busqueda_resultados">Resultados de búsqueda</string>
+    <string name="title_activity_acceso_web">Acceso a web</string>
+    <string name="error_web_no_valida">Web no válida</string>
+    <string name="error_acceso_web">Error en el acceso a la web</string>
+    <string name="menu_admin_categorias">Administrar categorías</string>
+    <string name="title_activity_categorias">Administración de categorías</string>
+    <string name="anadir_categoria">Añadir categoría</string>
+    <string name="no_categorias">No hay categorías</string>
+    <string name="alerta_eliminacion_categoria_titulo">Eliminar categoría</string>
+    <string name="alerta_eliminacion_categoria_mensaje_ini">¿Está seguro de eliminar la categoría \"</string>
+    <string name="alerta_eliminacion_categoria_mensaje_fin">\"?</string>
+    <string name="alerta_admin_categorias">Puede administrar las categorías desde el menú de la pantalla principal de la aplicación</string>
+
+</resources>
