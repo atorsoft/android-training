@@ -1,0 +1,4 @@
+The following libraries are necessary (they have not been uploaded for space optimization):
+- google-play-services_lib.jar
+- google-play-services.jar
+- android-support-v4.jar
