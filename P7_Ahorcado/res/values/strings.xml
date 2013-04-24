@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Ahorcado</string>
+
+    <!-- Menu de opciones -->
+    <string name="conectar_dispositivo_seguro">Conectar a dispositivo - Seguro</string>
+    <string name="conectar_dispositivo_inseguro">Conectar a dispositivo - Inseguro</string>
+    <string name="hacer_dispositivo_visible">Hacer el dispositivo visible</string>
+
+    <!-- ListaDispositivos -->
+    <string name="seleccion_dispositivo">Seleccione dispositivo</string>
+    <string name="titulo_dispositivos_vinculados">Dispositivos vinculados</string>
+    <string name="titulo_dispositivos_nuevos">Otros dispositivos disponibles</string>
+    <string name="buscar_dispositivos">Buscar dispositivos</string>
+    <string name="buscando">Buscando dispositivos...</string>
+    <string name="no_dispositivos_vinculados">No hay dispositivos vinculados</string>
+    <string name="no_dispositivos_nuevos">No se han encontrado dispositivos</string>
+
+    <!-- Ahorcado -->
+    <string name="bt_no_habilitado">Bluetooth no habilitado: saliendo de Ahorcado.</string>
+    <string name="estado_no_conectado">no conectado</string>
+    <string name="estado_conectando">conectando...</string>
+    <string name="estado_conectado">conectado: </string>
+    <string name="label_frase">Introduzca la frase a adivinar:</string>
+    <string name="comunicar">Comunicar</string>
+    <string name="no_conectado">No hay conexión con ningún dispositivo</string>
+    <string name="no_frase">La frase a adivinar está vacía</string>
+    <string name="solucion">Solución:</string>
+    <string name="letra">Letra:</string>
+    <string name="enviar">Enviar</string>
+    <string name="intentos">Intentos:</string>
+    <string name="no_letra">Introduzca una letra</string>
+    <string name="acierto">ACIERTO</string>
+    <string name="fallo">FALLO</string>
+    <string name="fin_partida">FIN DE PARTIDA:</string>
+    <string name="fin_partida_acierto">Incógnita acertada</string>
+    <string name="fin_partida_fallo">No hay más intentos.</string>
+    <string name="nueva_partida">Nueva partida</string>
+
+</resources>

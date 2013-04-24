@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/conectar_dispositivo_seguro"
+        android:icon="@drawable/ic_menu_seguro"
+        android:title="@string/conectar_dispositivo_seguro"/>
+    <item
+        android:id="@+id/conectar_dispositivo_inseguro"
+        android:icon="@drawable/ic_menu_inseguro"
+        android:title="@string/conectar_dispositivo_inseguro"/>
+    <item
+        android:id="@+id/hacer_dispositivo_visible"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/hacer_dispositivo_visible"/>
+
+</menu>
